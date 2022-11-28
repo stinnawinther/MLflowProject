@@ -1,0 +1,9 @@
+name: Assignment3
+
+conda_env: Assignment3.yaml
+
+entry_points:
+  main:
+    parameters:
+      Degree: {type: int, default: 3}
+    command: "Assignment_3.py {Degree}"
