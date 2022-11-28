@@ -6,4 +6,4 @@ entry_points:
   main:
     parameters:
       Degree: {type: int, default: 3}
-    command: "Assignment_3.py {Degree}"
+    command: "python Assignment_3.py {Degree}"
