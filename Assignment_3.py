@@ -100,4 +100,5 @@ with mlflow.start_run(run_name="assignment1.0"):
 
     #print("log the trained model")
     #mlflow.sklearn.log_model(pipeline_model, "model")
-
+    
+mlflow.end_run()
