@@ -25,7 +25,7 @@ import numpy as np
 # TODO: Set a descriptive name. This is optional, but makes it easier to keep track of your runs.
 
 #Load data:
-#with mlflow.start_run(run_name="assignment1.0"):
+with mlflow.start_run(run_name="assignment1.0"):
     # TODO: Insert path to dataset
     df = pd.read_json("dataset.json", orient="split")
 
