@@ -57,7 +57,7 @@ with mlflow.start_run(run_name="assignment1.0"):
     linreg_model = LinearRegression()
 
     #Create polynominal model:
-    Degree = int(sys.argv[1]) if len(sys.argv) > 1 else 3
+    Degree = 3
     poly = PolynomialFeatures(degree=Degree, include_bias=False)
 
     mlflow.log_param("Degree", Degree)
