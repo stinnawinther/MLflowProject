@@ -25,7 +25,7 @@ import numpy as np
 # TODO: Set a descriptive name. This is optional, but makes it easier to keep track of your runs.
 
 #Load data:
-with mlflow.start_run(run_name="assignment1.0"):
+#with mlflow.start_run(run_name="assignment1.0"):
     # TODO: Insert path to dataset
     df = pd.read_json("dataset.json", orient="split")
 
@@ -101,4 +101,4 @@ with mlflow.start_run(run_name="assignment1.0"):
     #print("log the trained model")
     #mlflow.sklearn.log_model(pipeline_model, "model")
     
-mlflow.end_run()
+#mlflow.end_run()
