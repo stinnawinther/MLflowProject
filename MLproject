@@ -1,6 +1,6 @@
 name: Assignment3
 
-conda_env: Assignment3.yaml
+conda_env: conda.yaml
 
 entry_points:
   main:
